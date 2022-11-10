@@ -120,12 +120,14 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Row(children: <Widget>[
-            FloatingActionButton(
-              onPressed: isGreaterThanZero ? _decrementCounter : null,
-              tooltip: 'Decrement',
-              backgroundColor: isGreaterThanZero ? Colors.blue : Colors.grey,
-              child: const Icon(Icons.remove),
-            ),
+            if (_counter != 0) ...[
+              FloatingActionButton(
+                onPressed: isGreaterThanZero ? _decrementCounter : null,
+                tooltip: 'Decrement',
+                backgroundColor: Colors.blue,
+                child: const Icon(Icons.remove),
+              ),
+            ],
             const Spacer(),
             FloatingActionButton(
               onPressed: _incrementCounter,
