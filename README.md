@@ -34,12 +34,12 @@ dan buka halaman ketiga, ketika kita menekan tombol kembali kita akan pergi ke h
 
 ### Sebutkan jenis-jenis event yang ada pada Flutter (contoh: `onPressed`).
 
-onPressed:  Kode dalam event onPressed akan tereksekusi saat sebuah tombol di klik. 
-onHover:  Kode dalam event ini akan tereksekusi saat mouse bergerak dalam sebuah tombol (tapi tidak di klik) 
-onFocusChange:  Kode dalam event ini akan tereksekusi saat fokus berubah. 
-onChanged:  Kode dalam event ini akan tereksekusi dalam TextField saat user melakukan insert atau delete sebuah text. 
-onTap:  Mirip dengan onPressed. Namun onPressed cenderung hanya untuk button sedangkan onTap untuk gestur apapun. 
-onSaved:  Kode dalam event ini akan tereksekusi saat nilai final dari form disimpan melalui FormState.save.
+onPressed:  Kode dalam event onPressed akan tereksekusi saat sebuah tombol di klik.<br>
+onHover:  Kode dalam event ini akan tereksekusi saat mouse bergerak dalam sebuah tombol (tapi tidak di klik)<br> 
+onFocusChange:  Kode dalam event ini akan tereksekusi saat fokus berubah.<br> 
+onChanged:  Kode dalam event ini akan tereksekusi dalam TextField saat user melakukan insert atau delete sebuah text.<br> 
+onTap:  Mirip dengan onPressed. Namun onPressed cenderung hanya untuk button sedangkan onTap untuk gestur apapun.<br> 
+onSaved:  Kode dalam event ini akan tereksekusi saat nilai final dari form disimpan melalui FormState.save.<br>
 
 ### Jelaskan bagaimana cara kerja `Navigator` dalam "mengganti" halaman dari aplikasi Flutter.
 
