@@ -1,19 +1,7 @@
+import 'package:counter_7/model/budget.dart';
 import 'package:flutter/material.dart';
 import 'package:counter_7/drawer.dart';
 import 'package:flutter/services.dart';
-
-class Budget {
-  String judul;
-  int nominal;
-  String jenis;
-  DateTime tanggalPembuatan;
-
-  Budget(
-      {required this.jenis,
-      required this.judul,
-      required this.nominal,
-      required this.tanggalPembuatan});
-}
 
 class MyFormPage extends StatefulWidget {
   const MyFormPage({super.key});
